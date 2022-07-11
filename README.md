@@ -119,6 +119,14 @@ import "react-datepicker/dist/react-datepicker.css";
 />
 ```
 
+## Passo: React Hook useState para manter estado das datas.
+**Macete para criar uma data de X dias atrás:**
+
+```
+const date = new Date(new Date().setDate(new Date().getDate() - 365));
+```
+
+
 ### 2 - Back-end.
 - Entidades, banco de dados, database seed, listagem de dados, API REST, integração com SMS.
 

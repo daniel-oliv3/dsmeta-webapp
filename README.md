@@ -16,10 +16,10 @@
 - Site - https://code.visualstudio.com/
 
 #### Extenções 
-- VSCode
- - `IntelliCode`
- - `ESLint`
- - `JSX HTML <*tags/>`
+- - VSCode
+- - `IntelliCode`
+- - `ESLint`
+- - `JSX HTML <*tags/>`
 
 ## Spring Tools (STS).
 - Site - https://spring.io/tools

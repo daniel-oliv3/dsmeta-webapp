@@ -7,6 +7,7 @@ function App() {
     <>
       <Header />
 
+      
       <main>
         <section id="sales">
           <div className="ds-meta-container">

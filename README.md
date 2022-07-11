@@ -105,6 +105,19 @@ https://github.com/daniel-oliv3/dsmeta-website/blob/main/css/style.css
 yarn add react-datepicker@4.8.0 @types/react-datepicker@4.4.2
 ```
 
+```
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+```
+
+```
+<DatePicker
+    selected={new Date()}
+    onChange={(date: Date) => {}}
+    className="dsmeta-form-control"
+    dateFormat="dd/MM/yyyy"
+/>
+```
 
 ### 2 - Back-end.
 - Entidades, banco de dados, database seed, listagem de dados, API REST, integração com SMS.

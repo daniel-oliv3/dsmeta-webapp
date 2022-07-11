@@ -53,10 +53,11 @@ yarn dev
 
 ## Passo: Criar o projeto Spring Boot.
 **Criar projeto Spring Boot no Spring Initializr com as seguintes depenências.**
-- Web
-- JPA
-- H2
-- Security
+- Spring Initializr
+  `Web`
+  `JPA`
+  `H2`
+  `Security`
 
 ## Spring Initializr
 - Site - https://start.spring.io/
@@ -77,12 +78,12 @@ yarn dev
 ## Passo: Salvar primeira versão no Github.
 **Gitbub.**
 ```bash
-- git init
-- git add .
-- git commit -m "my_project"
-- git branch -M main
-- git remote add origen git@github.com: https://github.com/dsmeta-webapp
-- git push -u origin main
+git init
+git add .
+git commit -m "my_project"
+git branch -M main
+git remote add origen git@github.com: https://github.com/dsmeta-webapp
+git push -u origin main
 ```
 
 ## Passo: "limpar" o projeto ReactJS

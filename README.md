@@ -50,6 +50,12 @@
 
 #### Ajuste no arquivo pom.xml
 
+<*plugin>
+	<*groupId>org.apache.maven.plugins</*groupId>
+	<*artifactId>maven-resources-plugin</*artifactId>
+	<*version>3.1.0</*version><!--$NO-MVN-MAN-VER$ -->
+</*plugin>
+
 ## Spring Initializr
 - Site - https://start.spring.io/
 

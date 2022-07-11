@@ -63,6 +63,16 @@
 - Botão direito no projeto -> Maven -> Update project (force update)
 
 
+## Passo: Salvar primeira versão no Github.
+#### Gitbub.
+- git init
+- git add .
+- git commit -m "my_project"
+- git branch -M main
+- git remote add origen git@github.com: https://github.com/daniel-oliv3
+- git push -u origin main
+
+
 
 
 

@@ -54,10 +54,10 @@ yarn dev
 ## Passo: Criar o projeto Spring Boot.
 **Criar projeto Spring Boot no Spring Initializr com as seguintes depenências.**
 - Spring Initializr
-  `Web`
-  `JPA`
-  `H2`
-  `Security`
+ - `Web`
+ - `JPA`
+ - `H2`
+ - `Security`
 
 ## Spring Initializr
 - Site - https://start.spring.io/

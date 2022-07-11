@@ -9,8 +9,10 @@
 #### Ou
 
 ## Yarn.
-#### Yarn, globalmente. 
-- npm install --global yarn
+#### Yarn, globalmente.
+``` 
+npm install --global yarn
+```
 
 ## Visual Studio Code.
 - Site - https://code.visualstudio.com/
@@ -28,19 +30,26 @@
 ## Passo: Criar o projeto ReactJS.
 #### ViteJS.
 - ViteJS - https://vitejs.dev/guide/
-
-- yarn create vite frontend --template react-ts
+```
+ yarn create vite frontend --template react-ts
+```
 
 #### Dependências do projeto.
 - Instalando o node_modules
-- yarn
+
+```
+yarn
+```
 
 #### Roda o projeto.
-- npm run dev
+```
+npm run dev
+```
 
-#### ou
-- yarn dev
-
+**Ou**
+```
+yarn dev
+```
 
 ## Passo: Criar o projeto Spring Boot.
 #### Criar projeto Spring Boot no Spring Initializr com as seguintes depenências.

@@ -1,11 +1,19 @@
-## Spring React
+## Spring React.
 #### 1 - Front-end estático.
 - Criar projeto, repositório no Github, Layout, componentes React, DatePicker, React Hook, useState.
 
 ## Ferramentas.
+#### NodeJS.
 - NodeJS - https://nodejs.org/en/
-- ou
-- Yarn - npm install --global yarn
+
+#### Ou
+
+#### Yarn.
+- Yarn, globalmente. 
+- npm install --global yarn
+
+#### Visual Studio Code.
+- https://code.visualstudio.com/
 
 
 

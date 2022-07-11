@@ -19,7 +19,7 @@
 - VSCode
   - `IntelliCode`
   - `ESLint`
-  - `JSX HTML <*tags/>`
+  - `JSX HTML <tags/>`
 
 ## Spring Tools (STS).
 - Site - https://spring.io/tools
@@ -72,16 +72,20 @@
 - git add .
 - git commit -m "my_project"
 - git branch -M main
-- git remote add origen git@github.com: https://github.com/daniel-oliv3
+- git remote add origen git@github.com: https://github.com/dsmeta-webapp
 - git push -u origin main
 ```
 
 ## Passo: "limpar" o projeto ReactJS
 #### Vamos pegar o CSS que fizemos nas aulas de preparação:
 
+```
 https://github.com/daniel-oliv3/dsmeta-css
+```
 
 
+```
+```
 
 ### 2 - Back-end.
 - Entidades, banco de dados, database seed, listagem de dados, API REST, integração com SMS.

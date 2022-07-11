@@ -2,6 +2,13 @@
 #### 1 - Front-end estático.
 - Criar projeto, repositório no Github, Layout, componentes React, DatePicker, React Hook, useState.
 
+## Ferramentas.
+- NodeJS - https://nodejs.org/en/
+- ou
+- Yarn - npm install --global yarn
+
+
+
 #### 2 - Back-end.
 - Entidades, banco de dados, database seed, listagem de dados, API REST, integração com SMS.
 

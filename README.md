@@ -17,9 +17,9 @@
 
 #### Extenções 
 - VSCode
-- - `IntelliCode`
-- - `ESLint`
-- - `JSX HTML <*tags/>`
+  - `IntelliCode`
+  - `ESLint`
+  - `JSX HTML <*tags/>`
 
 ## Spring Tools (STS).
 - Site - https://spring.io/tools
@@ -67,13 +67,14 @@
 
 ## Passo: Salvar primeira versão no Github.
 #### Gitbub.
+```bash
 - git init
 - git add .
 - git commit -m "my_project"
 - git branch -M main
 - git remote add origen git@github.com: https://github.com/daniel-oliv3
 - git push -u origin main
-
+```
 
 ## Passo: "limpar" o projeto ReactJS
 #### Vamos pegar o CSS que fizemos nas aulas de preparação:

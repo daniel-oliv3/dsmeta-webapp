@@ -75,7 +75,7 @@ yarn dev
 
 
 ## Passo: Salvar primeira versão no Github.
-** Gitbub.**
+**Gitbub.**
 ```bash
 - git init
 - git add .

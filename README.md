@@ -24,7 +24,7 @@
 - Site - https://spring.io/tools
 
 
-## Criar o projeto ReactJS.
+## Passo: Criar o projeto ReactJS.
 #### ViteJS.
 - ViteJS - https://vitejs.dev/guide/
 
@@ -36,6 +36,21 @@
 
 #### Roda o projeto.
 - npm run dev
+
+#### ou
+- yarn dev
+
+
+## Passo: Criar o projeto Spring Boot.
+#### Criar projeto Spring Boot no Spring Initializr com as seguintes depenências.
+- Web
+- JPA
+- H2
+- Security
+
+#### Ajuste no arquivo pom.xml
+
+
 
 
 ### 2 - Back-end.

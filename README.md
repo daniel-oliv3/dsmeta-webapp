@@ -60,6 +60,8 @@
 -	<*version>3.1.0</*version><!--$NO-MVN-MAN-VER$ -->
 - </*plugin>
 
+- Botão direito no projeto -> Maven -> Update project (force update)
+
 
 
 

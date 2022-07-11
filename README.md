@@ -3,13 +3,13 @@
 - Criar projeto, repositório no Github, Layout, componentes React, DatePicker, React Hook, useState.
 
 ## Ferramentas.
-#### NodeJS.
+## NodeJS.
 - NodeJS - https://nodejs.org/en/
 
 #### Ou
 
-#### Yarn.
-- Yarn, globalmente. 
+## Yarn.
+#### Yarn, globalmente. 
 - npm install --global yarn
 
 #### Visual Studio Code.

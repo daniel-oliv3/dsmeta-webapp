@@ -30,6 +30,10 @@
 
 - yarn create vite frontend --template react-ts
 
+#### Dependências do projeto.
+- Instalando o node_modules
+- yarn
+
 
 ### 2 - Back-end.
 - Entidades, banco de dados, database seed, listagem de dados, API REST, integração com SMS.

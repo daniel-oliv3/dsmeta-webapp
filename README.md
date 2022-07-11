@@ -115,5 +115,5 @@ https://github.com/daniel-oliv3/dsmeta-css
 
 - By:  **Daniel Oliveira**
 
-![Instagram](https://www.instagram.com/danieloliv3.png
-)
+**Instagram** - https://www.instagram.com/danieloliv3/
+

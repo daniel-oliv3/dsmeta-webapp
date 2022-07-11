@@ -6,16 +6,6 @@
 
 }
 
-.dsmeta-container {
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-#sales {
-    padding: 40px 10px;
-}
-
 .dsmeta-sales-title {
     color: #676FFF;
     fonts-size: 24px;
@@ -78,26 +68,37 @@
     justify-content: center;
 }
 
-.dsmeta-red-btn {
-    height: 45px;
-    width: 45px;
-    background: rgba(255, 107, 114, 0.1);
-    border: 1px solid #FF6B72;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.dsmeta-red-btn img {
-    width: 19px;
-}
-
 .show576 {
     display: none;
 }
 
 .show992 {
     display: none;
+}
+
+
+
+/* ======= Responsive/Responsividade ======= */
+@media (min-width: 992px){
+    .show992 {
+        display: table-cell;
+    }
+}
+
+@media (min-width: 576px){
+    .show576 {
+        display: table-cell;
+    }
+
+    .dsmeta-card {
+        padding: 35px;
+    }
+
+    .dsmeta-sales-table tbody tr {
+        height: 55px;
+    }
+
+    .dsmeta-sales-table tbody {
+        font-size: 18px;
+    }
 }

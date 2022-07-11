@@ -94,7 +94,7 @@ git push -u origin main
 **Vamos pegar o CSS que fizemos nas aulas de preparação:**
 
 ```
-https://github.com/daniel-oliv3/dsmeta-css
+https://github.com/daniel-oliv3/dsmeta-website/blob/main/css/style.css
 ```
 
 

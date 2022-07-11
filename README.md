@@ -48,6 +48,10 @@
 - H2
 - Security
 
+## Spring Initializr
+- Site - https://start.spring.io/
+
+
 #### Ajuste no arquivo pom.xml
 
 - <*plugin>
@@ -56,8 +60,6 @@
 -	<*version>3.1.0</*version><!--$NO-MVN-MAN-VER$ -->
 - </*plugin>
 
-## Spring Initializr
-- Site - https://start.spring.io/
 
 
 

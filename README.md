@@ -16,9 +16,10 @@
 - Site - https://code.visualstudio.com/
 
 #### Extenções 
-- IntelliCode
-- ESLint
-- JSX HTML <*tags/>
+- VSCode
+- `IntelliCode`
+- `ESLint`
+- `JSX HTML <*tags/>`
 
 ## Spring Tools (STS).
 - Site - https://spring.io/tools
@@ -73,7 +74,10 @@
 - git push -u origin main
 
 
+## Passo: "limpar" o projeto ReactJS
+#### Vamos pegar o CSS que fizemos nas aulas de preparação:
 
+https://github.com/daniel-oliv3/dsmeta-css
 
 
 

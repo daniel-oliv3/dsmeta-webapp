@@ -6,10 +6,10 @@
 ## NodeJS.
 - NodeJS - https://nodejs.org/en/
 
-#### Ou
+**Ou**
 
 ## Yarn.
-#### Yarn, globalmente.
+**Yarn, globalmente.**
 ``` 
 npm install --global yarn
 ```
@@ -17,7 +17,7 @@ npm install --global yarn
 ## Visual Studio Code.
 - Site - https://code.visualstudio.com/
 
-#### Extenções 
+**Extenções** 
 - VSCode
   - `IntelliCode`
   - `ESLint`
@@ -28,20 +28,20 @@ npm install --global yarn
 
 
 ## Passo: Criar o projeto ReactJS.
-#### ViteJS.
+**Vite.JS**
 - ViteJS - https://vitejs.dev/guide/
 ```
  yarn create vite frontend --template react-ts
 ```
 
-#### Dependências do projeto.
-- Instalando o node_modules
+## Dependências do projeto.
+**Instalando o node_modules**
 
 ```
 yarn
 ```
 
-#### Roda o projeto.
+**Roda o projeto.**
 ```
 npm run dev
 ```
@@ -52,7 +52,7 @@ yarn dev
 ```
 
 ## Passo: Criar o projeto Spring Boot.
-#### Criar projeto Spring Boot no Spring Initializr com as seguintes depenências.
+**Criar projeto Spring Boot no Spring Initializr com as seguintes depenências.**
 - Web
 - JPA
 - H2
@@ -62,7 +62,7 @@ yarn dev
 - Site - https://start.spring.io/
 
 
-#### Ajuste no arquivo pom.xml
+**Ajuste no arquivo pom.xml**
 ```xml
  <plugin>
 	<groupId>org.apache.maven.plugins</groupId>
@@ -71,11 +71,11 @@ yarn dev
  </plugin>
 ```
 
-- Botão direito no projeto -> Maven -> Update project (force update)
+**- Botão direito no projeto -> Maven -> Update project (force update)**
 
 
 ## Passo: Salvar primeira versão no Github.
-#### Gitbub.
+** Gitbub.**
 ```bash
 - git init
 - git add .
@@ -86,7 +86,7 @@ yarn dev
 ```
 
 ## Passo: "limpar" o projeto ReactJS
-#### Vamos pegar o CSS que fizemos nas aulas de preparação:
+**Vamos pegar o CSS que fizemos nas aulas de preparação:**
 
 ```
 https://github.com/daniel-oliv3/dsmeta-css

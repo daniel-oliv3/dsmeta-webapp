@@ -12,7 +12,7 @@
 #### Yarn, globalmente. 
 - npm install --global yarn
 
-#### Visual Studio Code.
+## Visual Studio Code.
 - Site - https://code.visualstudio.com/
 
 #### Extenções 
@@ -20,7 +20,7 @@
 - ESLint
 - JSX HTML <*tags/>
 
-#### Spring Tools (STS).
+## Spring Tools (STS).
 - Site - https://spring.io/tools
 
 

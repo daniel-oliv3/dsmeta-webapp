@@ -16,7 +16,7 @@
 - Site - https://code.visualstudio.com/
 
 #### Extenções 
-- - VSCode
+- VSCode
 - - `IntelliCode`
 - - `ESLint`
 - - `JSX HTML <*tags/>`
@@ -54,12 +54,13 @@
 
 
 #### Ajuste no arquivo pom.xml
-
-- <*plugin>
--	<*groupId>org.apache.maven.plugins</*groupId>
--	<*artifactId>maven-resources-plugin</*artifactId>
--	<*version>3.1.0</*version><!--$NO-MVN-MAN-VER$ -->
-- </*plugin>
+```xml
+ <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-resources-plugin</artifactId>
+	<version>3.1.0</version><!--$NO-MVN-MAN-VER$ -->
+ </plugin>
+```
 
 - Botão direito no projeto -> Maven -> Update project (force update)
 

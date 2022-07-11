@@ -17,9 +17,9 @@
 
 #### Extenções 
 - VSCode
-- `IntelliCode`
-- `ESLint`
-- `JSX HTML <*tags/>`
+ - `IntelliCode`
+ - `ESLint`
+ - `JSX HTML <*tags/>`
 
 ## Spring Tools (STS).
 - Site - https://spring.io/tools

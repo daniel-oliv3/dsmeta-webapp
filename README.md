@@ -88,3 +88,6 @@ https://github.com/daniel-oliv3/dsmeta-css
 
 ### 3 - Integração e implementação.
 - Integração front-end e back-end, requisições com Axios, React Hook, useEffect, parâmetros de consulta, implementação na nuvem.
+
+
+- By:  **Daniel Oliveira**

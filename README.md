@@ -63,7 +63,7 @@ yarn dev
   - `H2`
   - `Security`
 
-## Spring Initializr
+## Spring Initializr.
 - Site - https://start.spring.io/
 
 
@@ -90,7 +90,7 @@ git remote add origen git@github.com: https://github.com/dsmeta-webapp
 git push -u origin main
 ```
 
-## Passo: "limpar" o projeto ReactJS
+## Passo: "limpar" o projeto ReactJS.
 **Vamos pegar o CSS que fizemos nas aulas de preparação:**
 
 ```
@@ -107,6 +107,10 @@ https://github.com/daniel-oliv3/dsmeta-css
 - Integração front-end e back-end, requisições com Axios, React Hook, useEffect, parâmetros de consulta, implementação na nuvem.
 
 
+##
+
 ![Parabéns!](https://raw.githubusercontent.com/devsuperior/bds-assets/main/img/trophy.png)
+
+##
 
 - By:  **Daniel Oliveira**

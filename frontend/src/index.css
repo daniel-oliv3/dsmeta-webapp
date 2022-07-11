@@ -1,3 +1,4 @@
+/* Global */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 * {
@@ -19,3 +20,13 @@ a, a:hover, a:visited {
 }
 
 
+/* SalesCard */
+.dsmeta-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#sales {
+    padding: 40px 10px;
+}

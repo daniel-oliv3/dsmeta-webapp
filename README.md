@@ -34,6 +34,9 @@
 - Instalando o node_modules
 - yarn
 
+#### Roda o projeto.
+- npm run dev
+
 
 ### 2 - Back-end.
 - Entidades, banco de dados, database seed, listagem de dados, API REST, integração com SMS.

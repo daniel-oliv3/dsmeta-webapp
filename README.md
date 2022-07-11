@@ -28,6 +28,7 @@ npm install --global yarn
 
 
 ## Passo: Criar o projeto ReactJS.
+![DevSuperior no Instagram](https://raw.githubusercontent.com/devsuperior/bds-assets/main/sds/pastas-dsmeta.png)
 **Vite.JS**
 - ViteJS - https://vitejs.dev/guide/
 ```
@@ -94,8 +95,7 @@ https://github.com/daniel-oliv3/dsmeta-css
 ```
 
 
-```
-```
+
 
 ### 2 - Back-end.
 - Entidades, banco de dados, database seed, listagem de dados, API REST, integração com SMS.

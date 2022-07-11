@@ -18,13 +18,17 @@
 #### Extenções 
 - IntelliCode
 - ESLint
-- JSX HTML <tags/>
+- JSX HTML <*tags/>
 
-
-### Spring Tools (STS).
+#### Spring Tools (STS).
 - Site - https://spring.io/tools
 
 
+## Criar o projeto ReactJS.
+#### ViteJS.
+- ViteJS - https://vitejs.dev/guide/
+
+- yarn create vite frontend --template react-ts
 
 
 ### 2 - Back-end.

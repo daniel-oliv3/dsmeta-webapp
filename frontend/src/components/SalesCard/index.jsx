@@ -12,10 +12,20 @@ function SalesCard() {
 				<h2 className="dsmeta-sales-title">Vendas</h2>
 				<div>
 					<div className="dsmeta-form-control-container">
-						<input className="dsmeta-form-control" type="text" placeholder="" />
+                        <DatePicker
+                            selected={new Date()}
+                            onChange={(date: Date) => {}}
+                            className="dsmeta-form-control"
+                            dateFormat="dd/MM/yyyy"
+                        />
 					</div>
 					<div className="dsmeta-form-control-container">
-						<input class="dsmeta-form-control" type="text" placeholder="" />
+                        <DatePicker
+                            selected={new Date()}
+                            onChange={(date: Date) => {}}
+                            className="dsmeta-form-control"
+                            dateFormat="dd/MM/yyyy"
+                        />
 					</div>
 				</div>
 				<div>

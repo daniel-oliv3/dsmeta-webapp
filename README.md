@@ -138,12 +138,14 @@ const date = new Date(new Date().setDate(new Date().getDate() - 365));
   - `Implantação na nuvem`
 
 ## Ferramentas.
-- Postman (Video: https://youtu.be/CWKLVapcnCU )
-- Heroku CLI (Video: Vídeo: https://youtu.be/70LUh5KNaEk)
-
 - Downloads
   - `Postman` - https://www.postman.com/ 
-  - `Heroku Cli` - https://devcenter.heroku.com/articles/heroku-cli 
+  - `Heroku Cli` - https://devcenter.heroku.com/articles/heroku-cli
+
+**Verificando a instalação do heroku no prompt de comando**
+```
+heroku -v
+```
 
 ## Passo: configuração de segurança.
 

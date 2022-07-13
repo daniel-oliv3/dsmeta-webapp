@@ -130,6 +130,22 @@ const date = new Date(new Date().setDate(new Date().getDate() - 365));
 ### 2 - Back-end.
 - Entidades, banco de dados, database seed, listagem de dados, API REST, integração com SMS.
 
+- Back-end
+  - `Implementar o back end`
+  - `Acesso a banco de dados`
+  - `Criar endpoints da API REST`
+  - `Integração com SMS`
+  - `Implantação na nuvem`
+
+## Ferramentas.
+- Postman (Video: https://youtu.be/CWKLVapcnCU )
+- Heroku CLI (Video: Vídeo: https://youtu.be/70LUh5KNaEk)
+
+
+
+
+
+
 ### 3 - Integração e implementação.
 - Integração front-end e back-end, requisições com Axios, React Hook, useEffect, parâmetros de consulta, implementação na nuvem.
 

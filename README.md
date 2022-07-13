@@ -140,10 +140,55 @@ const date = new Date(new Date().setDate(new Date().getDate() - 365));
 ## Ferramentas.
 - Postman (Video: https://youtu.be/CWKLVapcnCU )
 - Heroku CLI (Video: Vídeo: https://youtu.be/70LUh5KNaEk)
+  - `Postman - https://www.postman.com/` 
+  - `Heroku Cli - https://devcenter.heroku.com/articles/heroku-cli` 
 
+## Passo: configuração de segurança.
 
+```java
+import java.util.Arrays;
 
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig {
+
+	@Bean
+	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+		
+		http.headers().frameOptions().disable();
+		http.cors().and().csrf().disable();
+		http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+		http.authorizeHttpRequests((auth) -> auth.anyRequest().permitAll());
+
+		return http.build();
+	}
+
+	@Bean
+	CorsConfigurationSource corsConfigurationSource() {
+		CorsConfiguration configuration = new CorsConfiguration().applyPermitDefaultValues();
+		configuration.setAllowedMethods(Arrays.asList("POST", "GET", "PUT", "DELETE", "OPTIONS"));
+		final UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+		source.registerCorsConfiguration("/**", configuration);
+		return source;
+	}
+}
+```
+
+## Passo: banco de dados.
+- Criar entidade Sale
+- Fazer mapeamento objeto-relacional (JPA)
+- Configurar dados de conexão do banco de dados H2
+- Fazer seed do banco de dados
 
 
 ### 3 - Integração e implementação.

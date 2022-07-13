@@ -140,8 +140,10 @@ const date = new Date(new Date().setDate(new Date().getDate() - 365));
 ## Ferramentas.
 - Postman (Video: https://youtu.be/CWKLVapcnCU )
 - Heroku CLI (Video: Vídeo: https://youtu.be/70LUh5KNaEk)
-  - `Postman - https://www.postman.com/` 
-  - `Heroku Cli - https://devcenter.heroku.com/articles/heroku-cli` 
+
+- Downloads
+  - `Postman` - https://www.postman.com/ 
+  - `Heroku Cli` - https://devcenter.heroku.com/articles/heroku-cli 
 
 ## Passo: configuração de segurança.
 

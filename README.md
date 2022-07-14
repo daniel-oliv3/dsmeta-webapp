@@ -342,11 +342,17 @@ INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Padme',79,6
 - http://localhost:8080/sales
 
 
+## Passo: Consulta por data.
+**Consulta customizada**:
 
+```sql
+@Query("SELECT obj FROM Sale obj WHERE obj.date BETWEEN :min AND :max ORDER BY obj.amount DESC")
+Page<Sale> findSales(LocalDate min, LocalDate max, Pageable pageable);
+```
 
-
-
-
+**Consulta no postman** 
+- http://localhost:8080/sales?minDate=2022-01-01&maxDate=2022-03-31
+- http://localhost:8080/sales?minDate=2021-11-01&maxDate=2021-12-31
 
 
 

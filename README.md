@@ -409,7 +409,7 @@ public class SmsService {
 ```
 
 
-- https://www.twilio.com/
+- Site Twilio - https://www.twilio.com/
 
 
 ## Passo: Implantação no Heroku
@@ -435,7 +435,7 @@ git remote -v
 git subtree push --prefix backend heroku main
 ```
 
-
+-Site Heroku - https://www.heroku.com/
 
 
 

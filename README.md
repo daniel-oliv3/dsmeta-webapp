@@ -412,6 +412,31 @@ public class SmsService {
 - https://www.twilio.com/
 
 
+## Passo: Implantação no Heroku
+- Arquivo **system.properties**
+
+```
+java.runtime.version=17
+```
+
+**Criar app no Heroku**
+- Definir variáveis de ambiente:
+  - `TWILIO_SID`
+  - `TWILIO_KEY`
+  - `TWILIO_PHONE_FROM`
+  - `TWILIO_PHONE_TO`
+
+
+```
+heroku -v
+heroku login
+heroku git:remote -a <nome-do-app>
+git remote -v
+git subtree push --prefix backend heroku main
+```
+
+
+
 
 
 

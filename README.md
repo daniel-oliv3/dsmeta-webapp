@@ -350,17 +350,63 @@ INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Padme',79,6
 Page<Sale> findSales(LocalDate min, LocalDate max, Pageable pageable);
 ```
 
-**Consulta no postman** 
-- http://localhost:8080/sales?minDate=2022-01-01&maxDate=2022-03-31
-- http://localhost:8080/sales?minDate=2021-11-01&maxDate=2021-12-31
+**Consulta no postman**
+``` 
+http://localhost:8080/sales?minDate=2022-01-01&maxDate=2022-03-31
+http://localhost:8080/sales?minDate=2021-11-01&maxDate=2021-12-31
+```
 
+## Passo: Envio de SMS.
+**Dependências Maven do Twilio**
 
+```jsx
+<dependency>
+	<groupId>com.twilio.sdk</groupId>
+	<artifactId>twilio</artifactId>
+	<version>8.31.1</version>
+</dependency>
+```
 
+- Variáveis de ambiente no **application.properties:**
 
+```sql
+twilio.sid=${TWILIO_SID}
+twilio.key=${TWILIO_KEY}
+twilio.phone.from=${TWILIO_PHONE_FROM}
+twilio.phone.to=${TWILIO_PHONE_TO}
+```
 
+**Classe SmsService:**
 
+```java
+@Service
+public class SmsService {
 
+	@Value("${twilio.sid}")
+	private String twilioSid;
 
+	@Value("${twilio.key}")
+	private String twilioKey;
+
+	@Value("${twilio.phone.from}")
+	private String twilioPhoneFrom;
+
+	@Value("${twilio.phone.to}")
+	private String twilioPhoneTo;
+
+	public void sendSms() {
+
+		Twilio.init(twilioSid, twilioKey);
+
+		PhoneNumber to = new PhoneNumber(twilioPhoneTo);
+		PhoneNumber from = new PhoneNumber(twilioPhoneFrom);
+
+		Message message = Message.creator(to, from, "Teste").create();
+
+		System.out.println(message.getSid());
+	}
+}
+```
 
 
 

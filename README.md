@@ -438,13 +438,59 @@ git subtree push --prefix backend heroku main
 -Site Heroku - https://www.heroku.com/
 
 
-
-
-
-
-
 ### 3 - Integração e implementação.
 - Integração front-end e back-end, requisições com Axios, React Hook, useEffect, parâmetros de consulta, implementação na nuvem.
+
+- Passo: **Back-end/front-end**
+  - `Integrar back end e front end`
+  - `Implantar o front end`
+
+## Passo: Primeira requisição com Axios e useEffect.
+```
+yarn add axios@0.27.2
+```
+
+## Passo: Listagem de vendas.
+Definição da BASE_URL:
+
+```
+export const BASE_URL = import.meta.env.VITE_BACKEND_URL ?? "http://localhost:8080";
+```
+
+## Passo: Passando as datas como argumento.
+
+## Passo: Enviar notificação.
+
+## Passo: Mensagem Toast de confirmação.
+```
+yarn add react-toastify@9.0.5
+```
+No App.tsx:
+
+```jsx
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+```
+
+## Passo: Deploy no Netlify.
+
+- Site - https://www.netlify.com/
+
+- **Deploy básico**
+  - `Base directory: frontend`
+  - `Build command: yarn build`
+  - `Publish directory: frontend/dist`
+  - `Variáveis de ambiente:`
+  - `VITE_BACKEND_URL`
+  - `Configurações adicionais`
+
+- Site settings -> Domain Management: (colocar o nome que você quiser)
+Deploys -> Trigger deploy
+
+
+
+
+
 
 
 ##
